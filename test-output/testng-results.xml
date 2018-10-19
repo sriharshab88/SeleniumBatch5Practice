@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28524" started-at="2018-10-14T03:08:52Z" finished-at="2018-10-14T03:09:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28524" started-at="2018-10-14T03:08:52Z" finished-at="2018-10-14T03:09:20Z">
+      <class name="com.selenium.basicCommands.SeleniumBasicCommands">
+        <test-method status="PASS" signature="seleniumCommands()[pri:0, instance:com.selenium.basicCommands.SeleniumBasicCommands@d8355a8]" name="seleniumCommands" duration-ms="27496" started-at="2018-10-14T08:38:52Z" finished-at="2018-10-14T08:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumCommands -->
+        <test-method status="PASS" signature="endBrowser()[pri:0, instance:com.selenium.basicCommands.SeleniumBasicCommands@d8355a8]" name="endBrowser" is-config="true" duration-ms="1007" started-at="2018-10-14T08:39:19Z" finished-at="2018-10-14T08:39:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endBrowser -->
+      </class> <!-- com.selenium.basicCommands.SeleniumBasicCommands -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
