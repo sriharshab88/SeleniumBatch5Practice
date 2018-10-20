@@ -13,14 +13,13 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
-public class SeleniumCommands2 {
+public class ProfileTestCases {
 
 	WebDriver driver;
 	
 	@Test
-	public void seleniumCoreCommands() throws InterruptedException {
-		
-		
+	public void validatingEditProfileFunctionality() throws InterruptedException {
+	
 		if (System.getProperty("os.name").equals("windows")) {
 			System.setProperty("webdriver.gecko.driver",
 					System.getProperty("user.dir") + File.separator + "geckodriver.exe");
@@ -92,6 +91,7 @@ public class SeleniumCommands2 {
 		driver.findElement(By.xpath("//button[@name='submitIdentity']")).click();  //click on the save button
 		
 	}
+	
 	
 	@AfterTest
 	public void endBrowser() {
