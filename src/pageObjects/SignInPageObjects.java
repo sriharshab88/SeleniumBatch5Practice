@@ -21,6 +21,7 @@ public class SignInPageObjects {
 		return genericMethods.getTextByXpath("//div[@id='center_column']/h1", "Authentication Message");
 	}
 	
+	
 	public boolean isLoginModuleDisplayed() {
 		return genericMethods.isModuleDisplayed("//form[@id='login_form']", "Login Module");
 	}

@@ -17,10 +17,13 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import libraries.Configurations;
+import libraries.ProjectSpecificMethods;
 import libraries.Utilities;
 import pageObjects.HomePageObjects;
 import pageObjects.MyAccountPageObjects;
 import pageObjects.SignInPageObjects;
+import testData.CommonTestData;
+import testData.TestDataReader;
 
 public class SignInTestCases {
 	
@@ -30,6 +33,7 @@ public class SignInTestCases {
 	SignInPageObjects signInPage; 
 	HomePageObjects homePage;
 	MyAccountPageObjects myAccountPage;
+	ProjectSpecificMethods projectSpecificMethods;
 	
 	@BeforeTest
 	public void startBrowser() {
@@ -38,46 +42,24 @@ public class SignInTestCases {
 		signInPage = new SignInPageObjects(driver, wait);
 		homePage = new HomePageObjects(driver, wait);
 		myAccountPage = new MyAccountPageObjects(driver, wait);
+		projectSpecificMethods = new ProjectSpecificMethods(driver, wait);
 	}
 	
 	@Test
 	public void validateSignInFunctionality() throws InterruptedException {
 		
-		homePage.clickSignInLink();
-		String loginPageTitle = driver.getTitle();
-		assertEquals(loginPageTitle, "Login - My Store", "FAIL -- Login page title did not match");
-	
-		String loginText = signInPage.getAuthenticationText();
-		assertEquals(loginText, "AUTHENTICATION" , "FAIL -- Authentication text did not match");  //Compare the text with expected
-		
-		boolean isLoginModuleDisplayed = signInPage.isLoginModuleDisplayed();
-		assertTrue(isLoginModuleDisplayed, "FAIL -- Login module did not display in the login page");
-		
-		signInPage.enterEmailId("testbatch5@test.com");
-		signInPage.enterPassword("12345678");
-		signInPage.clickSignInButton();
+		projectSpecificMethods.login(TestDataReader.email, TestDataReader.password);
 		
 		String myaccountTitle = driver.getTitle();
-		assertEquals(myaccountTitle, "My account - My Store", "FAIL -- My account title did not match");
+		assertEquals(myaccountTitle, TestDataReader.myAccountPage, TestDataReader.myAccountPageMsg);
 		
 		String username = myAccountPage.getUserName();
-		assertEquals(username, "Test Harsha", "FAIL -- Username did not match");
+		assertEquals(username, TestDataReader.userName, TestDataReader.userNameMsg);
 	}
 	
-	@DataProvider
-	public Object [][] signInTestCaseData(){	
-		return new Object[][] {
-			{"Invalid email 1", "emailInvalid", "123456", "Invalid email address."},
-			{"Invalid email 2","email@@@.ttt.com", "123456", "Invalid email address."},
-			{"Blank email","", "123456", "An email address required."},
-			{"Blank password","test@test.com", "", "Password is required."},
-		    {"Invalid password", "testbatch5@test.com", "1", "Invalid password."},
-		    {"Authentication error","testbatch5@test.com", "qqqwqsdhbsdhasd", "Authentication failed."},
-		    {"All Blanks", "", "", "An email address required."		
-		}};
-	}
 	
-	@Test(dataProviderClass = SignInTestCases.class, dataProvider = "signInTestCaseData")
+	
+	@Test(dataProviderClass = CommonTestData.class, dataProvider = "signInTestCaseData")
 	public void validateNegativeSignInScenarios(String testCaseName, String email, 
 			String password, String errorMessage) throws InterruptedException {
 		

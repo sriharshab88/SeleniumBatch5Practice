@@ -1,0 +1,19 @@
+#SignInTestCases.class
+email = testbatch5@test.com
+password = 12345678
+myAccountPageTitle = My account - My Store
+myAccountPageTitleAssertionMessage = FAIL -- My account title did not match
+userName = Test Harsha
+userNameAssertionMessage = FAIL -- Username did not match
+
+#Utilities.class
+homePageTitle = My Store
+homepageTitleAssertionMessage = FAIL -- the window title did not match
+
+#ProjectSpecificMethods.class
+loginPageTitle = Login - My Store
+loginPageTitleAssertionMessage = FAIL -- Login page title did not match
+signInPageText = AUTHENTICATION
+signInPageTextAssertionMessage = FAIL -- Authentication text did not match
+loginModuleDisplayAssertionMessage = FAIL -- Login module did not display in the login page
+
