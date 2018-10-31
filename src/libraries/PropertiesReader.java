@@ -84,6 +84,10 @@ public class PropertiesReader {
 		return prop.getProperty("loginModuleDisplayAssertionMessage");
 	}
 	
+	public String getErrorMessageStatus() {
+		return prop.getProperty("errorMessageStatus");
+	}
+	
 	
 	
 }

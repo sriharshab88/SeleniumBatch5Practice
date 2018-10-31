@@ -17,7 +17,7 @@ public class HomePageObjects {
 		genericMethods = new GenericMethods(driver, wait);
 	}
 
-	public void clickSignInLink() {
+	public void clickSignInLink() throws Exception {
 		genericMethods.clickLinkByXpath("//a[@class='login']", "Sign Link");
 	}
 	

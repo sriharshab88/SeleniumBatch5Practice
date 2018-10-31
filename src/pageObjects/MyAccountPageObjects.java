@@ -17,7 +17,7 @@ public class MyAccountPageObjects {
 		genericMethods = new GenericMethods(driver, wait);
 	}
 	
-	public String getUserName() {
+	public String getUserName() throws Exception {
 		return genericMethods.getTextByXpath("//a[@class='account']/span", "User Name");
 	}
 	

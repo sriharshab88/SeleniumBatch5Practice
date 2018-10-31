@@ -32,8 +32,9 @@ public class ProjectSpecificMethods {
 	/**
 	 * This method performs the login functionality of the application
 	 * @param emailId, password
+	 * @throws Exception 
 	 */
-	public void login(String emailId, String password) {
+	public void login(String emailId, String password) throws Exception {
 		
 		homePage.clickSignInLink();
 		String loginPageTitle = driver.getTitle();

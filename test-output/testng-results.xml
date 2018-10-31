@@ -1,63 +1,539 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
     <line>
-      <![CDATA[PASS -- The element Sign Link is clicked successfully]]>
+      <![CDATA[The element Sign Link is clicked successfully]]>
     </line>
     <line>
-      <![CDATA[PASS -- The element Authentication Message is displayed successfully]]>
+      <![CDATA[The element Authentication Message is displayed successfully]]>
     </line>
     <line>
-      <![CDATA[PASS -- The element Login Module is displayed successfully]]>
+      <![CDATA[The element Login Module is displayed successfully]]>
     </line>
     <line>
-      <![CDATA[PASS -- The value testbatch5@test.com is entered successfully]]>
+      <![CDATA[The value emailInvalid is entered successfully]]>
     </line>
     <line>
-      <![CDATA[PASS -- The value 12345678 is entered successfully]]>
+      <![CDATA[The value 123456 is entered successfully]]>
     </line>
     <line>
-      <![CDATA[PASS -- The element Sign In Button is clicked successfully]]>
+      <![CDATA[The element Sign In Button is clicked successfully]]>
     </line>
     <line>
-      <![CDATA[PASS -- The element User Name is displayed successfully]]>
+      <![CDATA[The element Error message did not display properly for the testcase Invalid email 1 is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Sign Link is clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Authentication Message is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Login Module is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The value email@@@.ttt.com is entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[The value 123456 is entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Sign In Button is clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Error message did not display properly for the testcase Invalid email 2 is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Sign Link is clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Authentication Message is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Login Module is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The value  is entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[The value 123456 is entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Sign In Button is clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Error message did not display properly for the testcase Blank email is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Sign Link is clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Authentication Message is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Login Module is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The value test@test.com is entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[The value  is entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Sign In Button is clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Error message did not display properly for the testcase Blank password is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Sign Link is clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Authentication Message is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Login Module is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The value testbatch5@test.com is entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[The value 1 is entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Sign In Button is clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Error message did not display properly for the testcase Invalid password is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Sign Link is clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Authentication Message is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Login Module is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The value testbatch5@test.com is entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[The value qqqwqsdhbsdhasd is entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Sign In Button is clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Error message did not display properly for the testcase Authentication error is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Sign Link is clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Authentication Message is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Login Module is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The value  is entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[The value  is entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Sign In Button is clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Error message did not display properly for the testcase All Blanks is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Sign Link is clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Authentication Message is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Login Module is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The value testbatch5@test.com is entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[The value 12345678 is entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element Sign In Button is clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[The element User Name is displayed successfully]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22543" started-at="2018-10-27T07:02:04Z" finished-at="2018-10-27T07:02:27Z">
+  <suite name="Default suite" duration-ms="42128" started-at="2018-10-31T03:02:22Z" finished-at="2018-10-31T03:03:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22543" started-at="2018-10-27T07:02:04Z" finished-at="2018-10-27T07:02:27Z">
+    <test name="Default test" duration-ms="42128" started-at="2018-10-31T03:02:22Z" finished-at="2018-10-31T03:03:04Z">
       <class name="testScripts.SignInTestCases">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:testScripts.SignInTestCases@61832929]" name="startBrowser" is-config="true" duration-ms="16142" started-at="2018-10-27T12:32:04Z" finished-at="2018-10-27T12:32:20Z">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:testScripts.SignInTestCases@4493d195]" name="startBrowser" is-config="true" duration-ms="10361" started-at="2018-10-31T08:32:22Z" finished-at="2018-10-31T08:32:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="validateSignInFunctionality()[pri:0, instance:testScripts.SignInTestCases@61832929]" name="validateSignInFunctionality" duration-ms="5800" started-at="2018-10-27T12:32:20Z" finished-at="2018-10-27T12:32:26Z">
+        <test-method status="PASS" signature="validateNegativeSignInScenarios(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.SignInTestCases@4493d195]" name="validateNegativeSignInScenarios" duration-ms="4513" started-at="2018-10-31T08:32:32Z" data-provider="signInTestCaseData" finished-at="2018-10-31T08:32:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalid email 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emailInvalid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid email address.]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[PASS -- The element Sign Link is clicked successfully]]>
+              <![CDATA[The element Sign Link is clicked successfully]]>
             </line>
             <line>
-              <![CDATA[PASS -- The element Authentication Message is displayed successfully]]>
+              <![CDATA[The element Authentication Message is displayed successfully]]>
             </line>
             <line>
-              <![CDATA[PASS -- The element Login Module is displayed successfully]]>
+              <![CDATA[The element Login Module is displayed successfully]]>
             </line>
             <line>
-              <![CDATA[PASS -- The value testbatch5@test.com is entered successfully]]>
+              <![CDATA[The value emailInvalid is entered successfully]]>
             </line>
             <line>
-              <![CDATA[PASS -- The value 12345678 is entered successfully]]>
+              <![CDATA[The value 123456 is entered successfully]]>
             </line>
             <line>
-              <![CDATA[PASS -- The element Sign In Button is clicked successfully]]>
+              <![CDATA[The element Sign In Button is clicked successfully]]>
             </line>
             <line>
-              <![CDATA[PASS -- The element User Name is displayed successfully]]>
+              <![CDATA[The element Error message did not display properly for the testcase Invalid email 1 is displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateNegativeSignInScenarios -->
+        <test-method status="PASS" signature="validateNegativeSignInScenarios(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.SignInTestCases@4493d195]" name="validateNegativeSignInScenarios" duration-ms="3628" started-at="2018-10-31T08:32:37Z" data-provider="signInTestCaseData" finished-at="2018-10-31T08:32:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalid email 2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[email@@@.ttt.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The element Sign Link is clicked successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Authentication Message is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Login Module is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[The value email@@@.ttt.com is entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[The value 123456 is entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Sign In Button is clicked successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Error message did not display properly for the testcase Invalid email 2 is displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateNegativeSignInScenarios -->
+        <test-method status="PASS" signature="validateNegativeSignInScenarios(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.SignInTestCases@4493d195]" name="validateNegativeSignInScenarios" duration-ms="3380" started-at="2018-10-31T08:32:40Z" data-provider="signInTestCaseData" finished-at="2018-10-31T08:32:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Blank email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[An email address required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The element Sign Link is clicked successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Authentication Message is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Login Module is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[The value  is entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[The value 123456 is entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Sign In Button is clicked successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Error message did not display properly for the testcase Blank email is displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateNegativeSignInScenarios -->
+        <test-method status="PASS" signature="validateNegativeSignInScenarios(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.SignInTestCases@4493d195]" name="validateNegativeSignInScenarios" duration-ms="3906" started-at="2018-10-31T08:32:44Z" data-provider="signInTestCaseData" finished-at="2018-10-31T08:32:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Blank password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Password is required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The element Sign Link is clicked successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Authentication Message is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Login Module is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[The value test@test.com is entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[The value  is entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Sign In Button is clicked successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Error message did not display properly for the testcase Blank password is displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateNegativeSignInScenarios -->
+        <test-method status="PASS" signature="validateNegativeSignInScenarios(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.SignInTestCases@4493d195]" name="validateNegativeSignInScenarios" duration-ms="4226" started-at="2018-10-31T08:32:48Z" data-provider="signInTestCaseData" finished-at="2018-10-31T08:32:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalid password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testbatch5@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The element Sign Link is clicked successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Authentication Message is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Login Module is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[The value testbatch5@test.com is entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[The value 1 is entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Sign In Button is clicked successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Error message did not display properly for the testcase Invalid password is displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateNegativeSignInScenarios -->
+        <test-method status="PASS" signature="validateNegativeSignInScenarios(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.SignInTestCases@4493d195]" name="validateNegativeSignInScenarios" duration-ms="3741" started-at="2018-10-31T08:32:52Z" data-provider="signInTestCaseData" finished-at="2018-10-31T08:32:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Authentication error]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testbatch5@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qqqwqsdhbsdhasd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Authentication failed.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The element Sign Link is clicked successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Authentication Message is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Login Module is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[The value testbatch5@test.com is entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[The value qqqwqsdhbsdhasd is entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Sign In Button is clicked successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Error message did not display properly for the testcase Authentication error is displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateNegativeSignInScenarios -->
+        <test-method status="PASS" signature="validateNegativeSignInScenarios(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.SignInTestCases@4493d195]" name="validateNegativeSignInScenarios" duration-ms="3352" started-at="2018-10-31T08:32:56Z" data-provider="signInTestCaseData" finished-at="2018-10-31T08:32:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[All Blanks]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[An email address required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The element Sign Link is clicked successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Authentication Message is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Login Module is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[The value  is entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[The value  is entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Sign In Button is clicked successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Error message did not display properly for the testcase All Blanks is displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateNegativeSignInScenarios -->
+        <test-method status="PASS" signature="validateSignInFunctionality()[pri:0, instance:testScripts.SignInTestCases@4493d195]" name="validateSignInFunctionality" duration-ms="4369" started-at="2018-10-31T08:32:59Z" finished-at="2018-10-31T08:33:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The element Sign Link is clicked successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Authentication Message is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Login Module is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[The value testbatch5@test.com is entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[The value 12345678 is entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element Sign In Button is clicked successfully]]>
+            </line>
+            <line>
+              <![CDATA[The element User Name is displayed successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- validateSignInFunctionality -->
-        <test-method status="PASS" signature="endBrowser()[pri:0, instance:testScripts.SignInTestCases@61832929]" name="endBrowser" is-config="true" duration-ms="587" started-at="2018-10-27T12:32:26Z" finished-at="2018-10-27T12:32:27Z">
+        <test-method status="PASS" signature="endBrowser()[pri:0, instance:testScripts.SignInTestCases@4493d195]" name="endBrowser" is-config="true" duration-ms="618" started-at="2018-10-31T08:33:03Z" finished-at="2018-10-31T08:33:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endBrowser -->

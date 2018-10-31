@@ -13,5 +13,7 @@ public class Configurations {
 	public static String applicationUrl = "http://automationpractice.com/index.php";
 	public static String testDatapath = System.getProperty("user.dir") +File.separator+
 			"src"+File.separator+"testData"+File.separator+"TestData";
+	public static String resultsPath = System.getProperty("user.dir") +File.separator+
+			"ExtentReports.html";
 
 }

@@ -7,6 +7,8 @@ import java.io.File;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import results.ExtentResults;
+
 /**
  * This class file contains methods which are pre-requistes to the tests to run
  * @author z002gh8
@@ -15,6 +17,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Utilities {
 	
 	WebDriver driver;
+	ExtentResults results = new ExtentResults();
 	
 	public WebDriver launchBrowser() {
 		if (System.getProperty("os.name").equals("windows")) {

@@ -19,6 +19,7 @@ public class TestDataReader {
 	public static String signInPageText = propReader.getSignInPageText();
 	public static String signInPageTextMsg = propReader.getSignInPageTextAssertionMessage();
 	public static String loginModuleDisplayMsg = propReader.getLoginModuleDisplayAssertionMessage();
+	public static String errorMessageDisplayStatus = propReader.getErrorMessageStatus();
 	
 	
 	

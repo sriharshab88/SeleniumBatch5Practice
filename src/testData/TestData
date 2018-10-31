@@ -2,18 +2,18 @@
 email = testbatch5@test.com
 password = 12345678
 myAccountPageTitle = My account - My Store
-myAccountPageTitleAssertionMessage = FAIL -- My account title did not match
+myAccountPageTitleAssertionMessage = My account title display status
 userName = Test Harsha
-userNameAssertionMessage = FAIL -- Username did not match
+userNameAssertionMessage = Username display status
+errorMessageStatus = Error message display status for the testcase --  
 
 #Utilities.class
 homePageTitle = My Store
-homepageTitleAssertionMessage = FAIL -- the window title did not match
+homepageTitleAssertionMessage = the window title display status
 
 #ProjectSpecificMethods.class
 loginPageTitle = Login - My Store
-loginPageTitleAssertionMessage = FAIL -- Login page title did not match
+loginPageTitleAssertionMessage = Login page title display status
 signInPageText = AUTHENTICATION
-signInPageTextAssertionMessage = FAIL -- Authentication text did not match
-loginModuleDisplayAssertionMessage = FAIL -- Login module did not display in the login page
-
+signInPageTextAssertionMessage = Authentication text did not match
+loginModuleDisplayAssertionMessage = Login module did not display in the login page

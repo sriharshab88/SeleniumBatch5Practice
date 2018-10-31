@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Oct 27 12:32:04 IST 2018</td>
+<td>Started on:</td><td>Wed Oct 31 08:32:22 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>22 seconds (22543 ms)</td>
+<tr><td>Total time:</td><td>42 seconds (42128 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,23 +75,149 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testScripts.SignInTestCases.validateSignInFunctionality()'><b>validateSignInFunctionality</b><br>Test class: testScripts.SignInTestCases<br/>
-<a href="#Output-1744189907" onClick='toggleBox("Output-1744189907", this, "Show output", "Hide output");'>Show output</a>
+<td title='testScripts.SignInTestCases.validateNegativeSignInScenarios()'><b>validateNegativeSignInScenarios</b><br>Test class: testScripts.SignInTestCases<br>Parameters: Invalid email 1, emailInvalid, 123456, Invalid email address.<br/>
+<a href="#Output-1732238286" onClick='toggleBox("Output-1732238286", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1744189907" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1744189907">
-PASS -- The element Sign Link is clicked successfully<br/>
-PASS -- The element Authentication Message is displayed successfully<br/>
-PASS -- The element Login Module is displayed successfully<br/>
-PASS -- The value testbatch5@test.com is entered successfully<br/>
-PASS -- The value 12345678 is entered successfully<br/>
-PASS -- The element Sign In Button is clicked successfully<br/>
-PASS -- The element User Name is displayed successfully<br/>
+<a href="#Output-1732238286" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1732238286">
+The element Sign Link is clicked successfully<br/>
+The element Authentication Message is displayed successfully<br/>
+The element Login Module is displayed successfully<br/>
+The value emailInvalid is entered successfully<br/>
+The value 123456 is entered successfully<br/>
+The element Sign In Button is clicked successfully<br/>
+The element Error message did not display properly for the testcase Invalid email 1 is displayed successfully<br/>
 </div>
 </td>
 <td></td>
-<td>5</td>
-<td>testScripts.SignInTestCases@61832929</td></tr>
+<td>4</td>
+<td>testScripts.SignInTestCases@4493d195</td></tr>
+<tr>
+<td title='testScripts.SignInTestCases.validateNegativeSignInScenarios()'><b>validateNegativeSignInScenarios</b><br>Test class: testScripts.SignInTestCases<br>Parameters: Invalid email 2, email@@@.ttt.com, 123456, Invalid email address.<br/>
+<a href="#Output-2032326802" onClick='toggleBox("Output-2032326802", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2032326802" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2032326802">
+The element Sign Link is clicked successfully<br/>
+The element Authentication Message is displayed successfully<br/>
+The element Login Module is displayed successfully<br/>
+The value email@@@.ttt.com is entered successfully<br/>
+The value 123456 is entered successfully<br/>
+The element Sign In Button is clicked successfully<br/>
+The element Error message did not display properly for the testcase Invalid email 2 is displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testScripts.SignInTestCases@4493d195</td></tr>
+<tr>
+<td title='testScripts.SignInTestCases.validateNegativeSignInScenarios()'><b>validateNegativeSignInScenarios</b><br>Test class: testScripts.SignInTestCases<br>Parameters: Blank email, , 123456, An email address required.<br/>
+<a href="#Output-1237740254" onClick='toggleBox("Output-1237740254", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1237740254" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1237740254">
+The element Sign Link is clicked successfully<br/>
+The element Authentication Message is displayed successfully<br/>
+The element Login Module is displayed successfully<br/>
+The value  is entered successfully<br/>
+The value 123456 is entered successfully<br/>
+The element Sign In Button is clicked successfully<br/>
+The element Error message did not display properly for the testcase Blank email is displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testScripts.SignInTestCases@4493d195</td></tr>
+<tr>
+<td title='testScripts.SignInTestCases.validateNegativeSignInScenarios()'><b>validateNegativeSignInScenarios</b><br>Test class: testScripts.SignInTestCases<br>Parameters: Blank password, test@test.com, , Password is required.<br/>
+<a href="#Output-41031373" onClick='toggleBox("Output-41031373", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-41031373" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-41031373">
+The element Sign Link is clicked successfully<br/>
+The element Authentication Message is displayed successfully<br/>
+The element Login Module is displayed successfully<br/>
+The value test@test.com is entered successfully<br/>
+The value  is entered successfully<br/>
+The element Sign In Button is clicked successfully<br/>
+The element Error message did not display properly for the testcase Blank password is displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testScripts.SignInTestCases@4493d195</td></tr>
+<tr>
+<td title='testScripts.SignInTestCases.validateNegativeSignInScenarios()'><b>validateNegativeSignInScenarios</b><br>Test class: testScripts.SignInTestCases<br>Parameters: Invalid password, testbatch5@test.com, 1, Invalid password.<br/>
+<a href="#Output-6422064" onClick='toggleBox("Output-6422064", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-6422064" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-6422064">
+The element Sign Link is clicked successfully<br/>
+The element Authentication Message is displayed successfully<br/>
+The element Login Module is displayed successfully<br/>
+The value testbatch5@test.com is entered successfully<br/>
+The value 1 is entered successfully<br/>
+The element Sign In Button is clicked successfully<br/>
+The element Error message did not display properly for the testcase Invalid password is displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testScripts.SignInTestCases@4493d195</td></tr>
+<tr>
+<td title='testScripts.SignInTestCases.validateNegativeSignInScenarios()'><b>validateNegativeSignInScenarios</b><br>Test class: testScripts.SignInTestCases<br>Parameters: Authentication error, testbatch5@test.com, qqqwqsdhbsdhasd, Authentication failed.<br/>
+<a href="#Output-1613627715" onClick='toggleBox("Output-1613627715", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1613627715" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1613627715">
+The element Sign Link is clicked successfully<br/>
+The element Authentication Message is displayed successfully<br/>
+The element Login Module is displayed successfully<br/>
+The value testbatch5@test.com is entered successfully<br/>
+The value qqqwqsdhbsdhasd is entered successfully<br/>
+The element Sign In Button is clicked successfully<br/>
+The element Error message did not display properly for the testcase Authentication error is displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testScripts.SignInTestCases@4493d195</td></tr>
+<tr>
+<td title='testScripts.SignInTestCases.validateNegativeSignInScenarios()'><b>validateNegativeSignInScenarios</b><br>Test class: testScripts.SignInTestCases<br>Parameters: All Blanks, , , An email address required.<br/>
+<a href="#Output-322112198" onClick='toggleBox("Output-322112198", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-322112198" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-322112198">
+The element Sign Link is clicked successfully<br/>
+The element Authentication Message is displayed successfully<br/>
+The element Login Module is displayed successfully<br/>
+The value  is entered successfully<br/>
+The value  is entered successfully<br/>
+The element Sign In Button is clicked successfully<br/>
+The element Error message did not display properly for the testcase All Blanks is displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testScripts.SignInTestCases@4493d195</td></tr>
+<tr>
+<td title='testScripts.SignInTestCases.validateSignInFunctionality()'><b>validateSignInFunctionality</b><br>Test class: testScripts.SignInTestCases<br/>
+<a href="#Output-836427078" onClick='toggleBox("Output-836427078", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-836427078" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-836427078">
+The element Sign Link is clicked successfully<br/>
+The element Authentication Message is displayed successfully<br/>
+The element Login Module is displayed successfully<br/>
+The value testbatch5@test.com is entered successfully<br/>
+The value 12345678 is entered successfully<br/>
+The element Sign In Button is clicked successfully<br/>
+The element User Name is displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testScripts.SignInTestCases@4493d195</td></tr>
 </table><p>
 </body>
 </html>
