@@ -35,9 +35,9 @@ public class SignInTestCases {
 	HomePageObjects homePage;
 	MyAccountPageObjects myAccountPage;
 	ProjectSpecificMethods projectSpecificMethods;
-	ExtentResults results;
+	ExtentResults results = new ExtentResults();
 	
-	@BeforeTest
+	@BeforeTest(groups= {"Sanity", "Regression"})
 	public void startBrowser() {
 		driver = utilities.launchBrowser();
 		wait = new WebDriverWait(driver, 20);
@@ -45,10 +45,10 @@ public class SignInTestCases {
 		homePage = new HomePageObjects(driver, wait);
 		myAccountPage = new MyAccountPageObjects(driver, wait);
 		projectSpecificMethods = new ProjectSpecificMethods(driver, wait);
-		results = new ExtentResults();
+		
 	}
 	
-	@Test
+	@Test(groups= {"Sanity", "Regression"})
 	public void validateSignInFunctionality() throws Exception {
 		
 		results.createTestcase(Thread.currentThread()
@@ -65,7 +65,7 @@ public class SignInTestCases {
 	
 	
 	
-	@Test(dataProviderClass = CommonTestData.class, dataProvider = "signInTestCaseData")
+	@Test(groups= {"Sanity"},dataProviderClass = CommonTestData.class, dataProvider = "signInTestCaseData")
 	public void validateNegativeSignInScenarios(String testCaseName, String email, 
 			String password, String errorMessage) throws Exception {
 		
@@ -79,7 +79,7 @@ public class SignInTestCases {
 		
 	}
 	
-	@AfterTest
+	@AfterTest(groups= {"Sanity", "Regression"})
 	public void endBrowser() {
 		//driver.close();   //This will close the current active browser window
 		driver.quit();    //This will quit the entire browser process from the backend

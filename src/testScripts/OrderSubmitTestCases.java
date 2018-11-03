@@ -36,7 +36,7 @@ public class OrderSubmitTestCases {
 		driver = new FirefoxDriver();  //This command will launch the Firefox browser
 	}
 	
-	@Test
+	@Test(groups= {"Regression"})
 	public void placeOrder() throws InterruptedException {
 		driver.get("http://automationpractice.com/index.php"); //This will launch the application
 		String windowTitle = driver.getTitle(); //Fetch the title of the current window

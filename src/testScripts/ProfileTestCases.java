@@ -17,7 +17,7 @@ public class ProfileTestCases {
 
 	WebDriver driver;
 	
-	@Test
+	@Test(groups= {"Regression"})
 	public void validatingEditProfileFunctionality() throws InterruptedException {
 	
 		if (System.getProperty("os.name").equals("windows")) {
@@ -56,7 +56,7 @@ public class ProfileTestCases {
 		WebElement emailTextBox = driver.findElement(By.xpath("//input[@id='email']")); //Fetching email text box
 		emailTextBox.sendKeys("testbatch5@test.com"); //Entering email value into the email text box
 		
-		driver.findElement(By.id("passwd")).sendKeys("123456");  //Identifying the password text box through id and entering password into it
+		driver.findElement(By.id("passwd")).sendKeys("12345678");  //Identifying the password text box through id and entering password into it
 		
 		driver.findElement(By.xpath("//button[@id='SubmitLogin']")).click();  //Identifying the Submit button and clicking on it
 		
