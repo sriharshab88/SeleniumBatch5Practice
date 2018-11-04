@@ -16,19 +16,19 @@ import results.ExtentResults;
  */
 public class Utilities {
 	
-	WebDriver driver;
+	
 	ExtentResults results = new ExtentResults();
 	
 	public WebDriver launchBrowser() {
-		if (System.getProperty("os.name").equals("windows")) {
+		/*if (System.getProperty("os.name").equals("windows")) {
 			System.setProperty("webdriver.gecko.driver",
 					System.getProperty("user.dir") + File.separator + "geckodriver.exe");
 		} else {
 			System.setProperty("webdriver.gecko.driver",
-					System.getProperty("user.dir") + File.separator + "geckodriver-0.23");
+					System.getProperty("user.dir") + File.separator + "geckodriver");
 
-		}
-		driver = new FirefoxDriver();  //This command will launch the Firefox browser
+		}*/
+		WebDriver driver = new FirefoxDriver();  //This command will launch the Firefox browser
 		driver.get(Configurations.applicationUrl); //This will launch the application
 		String windowTitle = driver.getTitle(); //Fetch the title of the current window
 		assertEquals(windowTitle, "My Store", "FAIL -- the window title did not match");
