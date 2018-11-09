@@ -1,0 +1,46 @@
+o	What is Explicit wait and Implicit wait?
+o	What is a headless browser?
+o	How to get a screenshot in Selenium? Can you write the syntax?
+o	What are the different type of Locators in Selenium?
+o	What is the best way to locate a web element if there is no unique XPath?
+o	Do you run test cases in parallel with TestNG? If yes how many threads and does it cause any problem?
+o	What is the most common locator you use in your project?
+o	How frequently you use Thread.Sleep()?
+o	Suppose there are two elements on a web page with same ids, how will you handle it?
+o	Can we create an object for an interface?
+o	Difference between @BeforeTest and @BeforeMethod in TestNG?
+o	How does Selenium interact with the Web browser?
+o	Can you make the constructor of a class static?
+o	How do you maintain your test scripts and how frequently you have to modify them?
+o	How to find all broken links on a webpage?
+o	Explain your Automation Framework.
+o	Write a dynamic XPath to locate a table's 2nd row 3rd column data.
+o	Hash map vs Hash table.
+o	What is the significance of hash table?
+o	What is the return type of findElements?
+o	What’s the difference between a Maven project and a Java project?
+o	Getwindowhandle vs Getwindowhandles and the return types.
+o	Explain about the Project along with how the Automation was done.
+o	How to connect to a Database using Selenium?
+o	Any idea or experience with Continous Integration tool?
+o	How to handle a drop-down in Selenium?
+o	What is WebDriver – interface?
+o	Why do we need Interface in test?
+o	How to integrate your test with Jenkins?
+o	Any example or practical usage of Run time polymorphism?
+o	What kind of framework have you made?
+o	Any idea about Selenium Grid? Or Parallel execution.
+o	What are the challenges you face when running automation scripts?
+o	Difference between == and =.
+o	Is multiple inheritance possible in Java? Why?
+o	Are all methods in an abstract class, abstract?
+o	Can we make an Object of Abstract class or an Interface?
+o	What’s the difference between method overloading and over-riding?
+o	What’s the use of Java Static keyword?
+o	Can we write webdriver dr = new webdriver();
+o	What are the different plugins used for Maven? And it’s use?
+o	Difference between Abstract and Interface?
+o	Try, Throw & Catch syntax. And why is it used?
+o	How do you manage re-running only failed test cases?
+o	How to make TestNG.xml at run-time?
+o	Can we have Finally block without Try & Catch blocks?

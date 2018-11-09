@@ -39,7 +39,7 @@ public class SignInTestCases {
 	
 	@BeforeTest(groups= {"Sanity", "Regression"})
 	public void startBrowser() {
-		driver = utilities.launchBrowser();
+		driver = utilities.launchBrowser("Chrome");
 		wait = new WebDriverWait(driver, 20);
 		signInPage = new SignInPageObjects(driver, wait);
 		homePage = new HomePageObjects(driver, wait);
